@@ -1,45 +1,77 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background-color: white;
-background-image: url("https://images.unsplash.com/photo-1453959022778-cfda85dbe0f9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-background-size: 1920px 1080px;
-  background-attachment: fixed;
- }
-
-header {
- height: 100px;
- border-radius: 20px;
- background-color:  	#000000;
-opacity: 0.7;
+  background-image: url("https://novosibirsk.oboitd.ru/images/goods/big/20200130073355_Cvety_romashki_p6015_366.jpg");
+  background-size: cover;
+background-attachment: fixed;;
 }
-
+header {
+  height: 100px;
+  background-color:  	#00000099;
+  border-radius: 20px;
+}
+.nav {
+   text-align: center;
+   font-size: 4em;
+}
+.button {
+  display: inline;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFFBB;
+  font-size: 28px;
+  font-weight: 800;
+  text-decoration: none;
+  border: 3px solid #000000;
+  transition: all .2s linear;
+}
 main {
-  margin: 20px auto;
-max-width: 1600px;
- height: calc(100vh -200px);
- background-color:  #FF000000;
-  display: flex;
+  margin: 20px 0; /* задаю отступ между блоками хэдэр майн и футтер*/
+  height: calc(100vh - 200px); /* высчитываю высоту майн с учётом отступов и высоты футера и хэдера*/
+}
+footer {
+  height: 100px;
+  background-color: #00000099;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 2.5em;
+  margin: 0 2px 0 2px;
 }
 .image {
-max-height: 700px;
+ height: 500px;
+ width: 1000px;
+  margin: 0 20px 0 20px;
+  border-radius: 40px;
 overflow: hidden;
 display: flex;
 justify-content: center;
-maggin: 0 auto:
-margin: 310px 40px 20px 5px;
-border-radius: 40px;
 }
-.container-main {
-  margin: 20px;
-  padding: 100px;
-  background-color:  #FFFAFA;
-opacity: 0.85;
-border-radius: 20px;
+.logo{
+height: 35px;
+ width: 90px;
+justify-content: center;
+ 
 }
-footer {
- height: 100px;
-  background-color:  	#000000;
- border-radius: 20px ;
-opacity: 0.7;
+.text {
+  background-color: #FFFFFFDD;
+  border-radius: 40px;
+  padding: 20px;
+   font-size: 19px;
+}
+.size { /* задаю класс чтобы все блоки основные центрировать*/
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flex-two { /* задалю класс чтобы два блока в мэйне расположить рядом*/
+  display: flex;
+  justify-content: space-between;
+  flex-grow: grow;
+}
+.flex-two-for-header { /* задалю класс чтобы два блока в мэйне расположить рядом*/
+  display: flex;
+  justify-content: space-between;
+  flex-grow: grow;
 }
