@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url("https://novosibirsk.oboitd.ru/images/goods/big/20200130073355_Cvety_romashki_p6015_366.jpg");
+  background-size: cover;
+background-attachment: fixed;;
+}
+header {
+  height: 100px;
+  background-color:  	#00000099;
+  border-radius: 20px;
+}
+.nav {
+   text-align: center;
+   font-size: 4em;
+}
+.button {
+  display: inline;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFFBB;
+  font-size: 28px;
+  font-weight: 800;
+  text-decoration: none;
+  border: 3px solid #000000;
+  transition: all .2s linear;
+}
+main {
+  margin: 20px 0; /* задаю отступ между блоками хэдэр майн и футтер*/
+  height: calc(100vh - 200px); /* высчитываю высоту майн с учётом отступов и высоты футера и хэдера*/
+}
+footer {
+  height: 100px;
+  background-color: #00000099;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 2.5em;
+  margin: 0 2px 0 2px;
+}
+.image {
+ height: 500px;
+ width: 1000px;
+  margin: 0 20px 0 20px;
+  border-radius: 40px;
+overflow: hidden;
+display: flex;
+justify-content: center;
+}
+.logo{
+height: 35px;
+ width: 90px;
+justify-content: center;
+ 
+}
+.text {
+  background-color: #FFFFFFDD;
+  border-radius: 40px;
+  padding: 20px;
+   font-size: 18px;
+}
+.size { /* задаю класс чтобы все блоки основные центрировать*/
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flex-two { /* задалю класс чтобы два блока в мэйне расположить рядом*/
+  display: flex;
+  justify-content: space-between;
+  flex-grow: grow;
+}
+.flex-two-for-header { /* задалю класс чтобы два блока в мэйне расположить рядом*/
+  display: flex;
+  justify-content: space-between;
+  flex-grow: grow;
+}
