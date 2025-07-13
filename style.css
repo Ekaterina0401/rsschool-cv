@@ -1,25 +1,77 @@
 body {
   margin: 0;
-  padding: 0 auto 0;
-  background-color: white;
-background-image: url("https://images.unsplash.com/photo-1453959022778-cfda85dbe0f9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-background-size: 1920px 1080px;
-  background-attachment: fixed;
+  min-height: 100vh;
+  background-image: url("https://novosibirsk.oboitd.ru/images/goods/big/20200130073355_Cvety_romashki_p6015_366.jpg");
+  background-size: cover;
+background-attachment: fixed;;
+}
+header {
+  height: 100px;
+  background-color:  	#00000099;
+  border-radius: 20px;
+}
+.nav {
+   text-align: center;
+   font-size: 4em;
+}
+.button {
+  display: inline;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFFBB;
+  font-size: 28px;
+  font-weight: 800;
+  text-decoration: none;
+  border: 3px solid #000000;
+  transition: all .2s linear;
+}
+main {
+  margin: 20px 0; /* задаю отступ между блоками хэдэр майн и футтер*/
+  height: calc(100vh - 200px); /* высчитываю высоту майн с учётом отступов и высоты футера и хэдера*/
+}
+footer {
+  height: 100px;
+  background-color: #00000099;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 2.5em;
+  margin: 0 2px 0 2px;
+}
+.image {
+ height: 500px;
+ width: 1000px;
+  margin: 0 20px 0 20px;
+  border-radius: 40px;
+overflow: hidden;
+display: flex;
+justify-content: center;
+}
+.logo{
+height: 35px;
+ width: 90px;
+justify-content: center;
+ 
+}
+.text {
+  background-color: #FFFFFFDD;
+  border-radius: 40px;
+  padding: 20px;
+   font-size: 19px;
+}
+.size { /* задаю класс чтобы все блоки основные центрировать*/
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flex-two { /* задалю класс чтобы два блока в мэйне расположить рядом*/
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-grow: grow;
 }
-.container1 {
-  margin: 150px;
-  padding: 250px;
-  background-color:  #FFFAFA;
-}
-.img{
-background-image: url("https://img.freepik.com/free-photo/beautiful-young-woman-posing-park_1153-6549.jpg?semt=ais_hybrid&w=740");
-background-size: no-repeat;
-background-position: center;
-background-size: cover;
-height: 500px;
-width: 400px;
-float:left;
-margin: 300px 15px 20px 5px;
+.flex-two-for-header { /* задалю класс чтобы два блока в мэйне расположить рядом*/
+  display: flex;
+  justify-content: space-between;
+  flex-grow: grow;
 }
