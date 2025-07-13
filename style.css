@@ -58,7 +58,7 @@ justify-content: center;
   background-color: #FFFFFFDD;
   border-radius: 40px;
   padding: 20px;
-   font-size: 19px;
+   font-size: 18px;
 }
 .size { /* задаю класс чтобы все блоки основные центрировать*/
   max-width: 1200px;
